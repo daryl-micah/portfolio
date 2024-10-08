@@ -14,8 +14,10 @@ export default function Hero() {
         </p>
         <div>
           <a href="/DarylM_Resume" download="DarylM_Resume">
-            <button className="text-2xl rounded-lg">Resume📥</button>
-            <div className="w-28 h-2 bg-indigo-500 rounded-full translate-x-32"></div>
+            <button className="text-2xl rounded-lg hover:text-indigo-500">
+              Resume📥
+            </button>
+            <div className="w-28 h-[0.75px] bg-indigo-500 rounded-full translate-x-32"></div>
           </a>
         </div>
       </div>
